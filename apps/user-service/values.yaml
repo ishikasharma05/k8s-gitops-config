@@ -9,7 +9,7 @@ replicaCount: 1
 image:
   repository: 662252246018.dkr.ecr.ap-south-1.amazonaws.com/user-service
   pullPolicy: IfNotPresent
-  tag: "v1"lling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+  tag: "v1" #lling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 imagePullSecrets: []
 # This is to override the chart name.
 nameOverride: ""
